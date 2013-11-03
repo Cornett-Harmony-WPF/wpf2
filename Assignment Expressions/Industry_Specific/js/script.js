@@ -6,8 +6,8 @@ document.querySelector("body").style.backgroundColor= "white";
 
 //This will demonstrate how to calculate the price of a website with the number of hours spent with the web designer.
 
-var pricePerHour = 50.00;
+var pricePerHour = 50;
 var hoursSpent = 15;
-var totalCostOfSite = pricePerHour * totalCostOfSite;
+var totalCostOfSite = (pricePerHour * hoursSpent);
 
-console.log("We spent " + hoursSpent + " hours on your website/. Your total cost will be " + totalCostOfSite.);
+console.log("We spent " + hoursSpent + " hours on your website." + " Your total cost for the website is $" + totalCostOfSite + ".");
