@@ -14,3 +14,16 @@ if(weight >= 250){
 }
 
 
+//Celsius to Fahrenheit converter
+
+//convert a temp to either degrees Celsius or fahrenheit depending on the variable.
+var degreef = 30;
+var degreec = 30;
+var degreec = degreec - 32 * 5 / 9;
+var degreef = degreef * 9 / 5 + 32;
+
+if (degreef == true){
+	console.log("The temperature is " + degreec + "degrees Celsius");
+}else{
+	console.log("The temperature is " + degreef + "degrees Fahrenheit");
+}
