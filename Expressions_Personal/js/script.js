@@ -17,6 +17,7 @@ monthName[10] = "October"
 monthName[11] = "November"
 monthName[12] = "December"
 
+//this is the months and days of my array that will help with calculations
 var month = new Array();
 month[0] = 0
 month[1] = 31
@@ -31,9 +32,10 @@ month[9] = 30
 month[10] = 31
 month[11] = 30
 month[12] = 31
+//This is declaring and defining my miles per day variable, input month (the month that will be entered into the computer, and miles per month.
 var milesPerDay = 75;
 var inputMonth = 4;
 var milesPerMonth= milesPerDay * month[inputMonth];
-
+//This writes to the console that "I drive input miles in the month of April."  It is a cancatination and a calculation.
 
 console.log("I drive " + milesPerMonth + " miles in the month of " + monthName[inputMonth] + ".");
