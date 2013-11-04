@@ -16,6 +16,6 @@ var totalGallonBucketsNeeded = wallAreas / gallonCovers;
 var wallAreas = wallSize * walls;
 //This tells us the final amount of gallon buckets of paint needed for all 4 walls in the room.
 var finalBucketsNeeded = wallAreas / gallonCovers;
-//This writes to the console
+//This writes to the console that "Each gallon bucket of paint covers ..." in the form of calculations and cancatinating strings from the variables above.
 console.log("Each gallon bucket of paint covers " + gallonCovers + " feet of wall space." + " So, you should need " + finalBucketsNeeded + " gallon buckets of paint for your " + wallAreas + " feet of wall space.");
 
