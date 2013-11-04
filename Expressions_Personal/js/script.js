@@ -37,5 +37,4 @@ var milesPerDay = 75;
 var inputMonth = 4;
 var milesPerMonth= milesPerDay * month[inputMonth];
 //This writes to the console that "I drive input miles in the month of April."  It is a cancatination and a calculation.
-
 console.log("I drive " + milesPerMonth + " miles in the month of " + monthName[inputMonth] + ".");
