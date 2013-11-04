@@ -8,8 +8,8 @@ document.querySelector("body").style.backgroundColor= "blue";
 var walls = 4;
 var wallSize = 20;
 var gallonCovers = 20;
-var wallAreas = walls / wallSize;
 var totalGallonBucketsNeeded = wallAreas * gallonCovers;
+var wallAreas = walls / wallSize;
 
 console.log("Each gallon bucket of paint covers " + gallonCovers + " feet of wall space." + " So, you should need " + totalGallonBucketsNeeded + " gallon buckets of paint for your " + wallAreas + " feet of wall space.");
 
