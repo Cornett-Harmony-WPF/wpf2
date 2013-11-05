@@ -3,16 +3,16 @@
 //this changes the css of your body tag to be green
 document.querySelector("body").style.backgroundColor= "#00FF11";
 
-//How many boxes of girl scout cookies do we need to sell to beat our neighbors?
+//Who has RSVP'd and how many still need to, to attend the birthday party?
 
-var totalBoxes = 25;
-var neighborsSold = 16;
-var theDifference = totalBoxes - neighborsSold;
-
-if(tirePressure >= 32){
-//This is what is the result of the if statement combined with the variable.
-	console.log("The tires pass spec!");
-}else{
-//If the first statement is not true it will register as false and this will occur.
-	console.log("Get your tires checked out!");
-}
+var totalInvites = new Array();
+totalInvites[0] = "Viola";
+totalInvites[0] = "Symphony";
+totalInvites[0] = "Sonata";
+totalInvites[0] = "Melody";
+totalInvites[0] = "Aria";
+totalInvites[0] = "Seattle";
+totalInvites[0] = "Sophia";
+totalInvites[0] = "Meghan";
+totalInvites[0] = "Erica";
+totalInvites[0] = "Rhapsody";
