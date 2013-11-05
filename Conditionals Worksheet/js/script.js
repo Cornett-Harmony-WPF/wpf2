@@ -17,8 +17,8 @@ if(weight >= 250){
 //Celsius to Fahrenheit converter
 
 //convert a temp to either degrees Celsius or fahrenheit depending on the variable.
-var degreef = 30;
-var degreec = 30;
+var degreef = 21;
+var degreec = 0 ;
 var degreec = degreec - 32 * 5 / 9;
 var degreef = degreef * 9 / 5 + 32;
 
