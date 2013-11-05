@@ -13,6 +13,14 @@ totalInvites[0] = "Melody";
 totalInvites[0] = "Aria";
 totalInvites[0] = "Seattle";
 totalInvites[0] = "Sophia";
-totalInvites[0] = "Meghan";
+totalInvites[0] = "Daisy";
 totalInvites[0] = "Erica";
 totalInvites[0] = "Rhapsody";
+
+var totalRsvp = new Array();
+totalRsvp = "Rhapsody"
+totalRsvp = "Melody"
+totalRsvp = "Symphony"
+totalRsvp = "Sonata"
+
+
