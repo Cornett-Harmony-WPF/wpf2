@@ -6,4 +6,3 @@ document.querySelector("body").style.backgroundColor= "#00FF11";
 
 //This will calculate whether or not I have enough in my budget, after bills, to buy a flat-screen TV.
 
-var
