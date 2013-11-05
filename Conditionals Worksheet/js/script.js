@@ -27,3 +27,20 @@ if (degreef == true){
 }else{
 	console.log("The temperature is " + degreef + "degrees Fahrenheit");
 }
+
+
+//Check the login
+
+var username = "jj";
+var password = "4Seattle";
+var correctUsername = "Ralphy";
+var correctPassword = "4Seattlfe";
+
+if(correctUsername + correctPassword){
+	console.log("Welcome " + correctUsername + "!");
+}
+else if(username === "jj"){
+		console.log("User not found. Try again.");
+}else{
+	console.log("Password does not match our records");
+}
