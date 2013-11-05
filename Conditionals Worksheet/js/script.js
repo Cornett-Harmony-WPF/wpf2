@@ -1,4 +1,4 @@
-// JavaScript
+// JavaScript Harmony Cornett Conditionals Assignment Nov. 4, 2013
 
 //this changes the css of your body tag to be green
 document.querySelector("body").style.backgroundColor= "#00FF11";
