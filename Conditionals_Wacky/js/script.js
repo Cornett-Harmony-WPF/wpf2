@@ -11,13 +11,14 @@ var totalBills = 1400;
 var totalIncome = 1500.00;
 //this is the actual cost of the tv variable.  It is 500 dollars.
 var costOfTv = 500.00;
-//this is the 
+//this is the monies that is leftover after the income is subtracted from the bills.
 var leftOver = totalIncome - totalBills;
 
+//this is the if statement that says, if the left over monies is greater than or equal to 500 dollars, than you can buy the tv.
 if(leftOver >= 500){
-//This is what is the result of the if statement combined with the variable.
+//This is what is the result of the if statement combined with the variable explains.
 	console.log("You have " + totalBills + " going out, you have " + totalIncome + " coming in, so you can buy the TV!");
 }else{
-//If the first statement is not true it will register as false and this will occur.
+//If the first statement is not true it will register as false and this will occur inside the console.
 	console.log("You have " + totalBills + " going out, you have " + totalIncome + " coming in, so keep Saving!");
 }
