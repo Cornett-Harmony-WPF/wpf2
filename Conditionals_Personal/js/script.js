@@ -10,4 +10,4 @@ var invited = 80;
 var maxAllowed = 200;
 var stillNeedToInviet = maxAllowed - invited;
 
-concole.log("I want to invite
+concole.log("I have " + howManyFriendsYouHave + " I have already invited " + invited + "people to my party." +
