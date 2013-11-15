@@ -23,7 +23,5 @@ totalRsvp[1] = " Melody"
 totalRsvp[2] = " Symphony"
 totalRsvp[3] = " and Sonata"
 
-var rsvpdAlready = 4;
-var stillNeedToRsvp = totalRsvp - totalInvites;
 
-console.log("We have sent " + totalInvites + " an invitation. " + " We stil need to send " + totalRsvp + " We still need to + stillNeedToRsvp");
+console.log("We have sent " + totalInvites + " an invitation. " + totalRsvp + " Already RSVP'd");
