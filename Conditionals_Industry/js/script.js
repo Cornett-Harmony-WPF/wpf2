@@ -15,7 +15,7 @@ totalInvites[5] = " Seattle";
 totalInvites[6] = " Sophia";
 totalInvites[7] = " Daisy";
 totalInvites[8] = " Erica";
-totalInvites[9] = " Rhapsody";
+totalInvites[9] = " and Rhapsody";
 
 var totalRsvp = new Array();
 totalRsvp[0] = " Rhapsody"
@@ -26,4 +26,4 @@ totalRsvp[3] = " Sonata"
 var rsvpdAlready = 4;
 var stillNeedToRsvp = totalRsvp - totalInvites;
 
-console.log("We have sent " + totalInvites + " an invitation " + " We have " + totalRsvp + " We still need to + stillNeedToRsvp");
+console.log("We have sent " + totalInvites + " an invitation. " + " We stil need to send " + totalRsvp + " We still need to + stillNeedToRsvp");
