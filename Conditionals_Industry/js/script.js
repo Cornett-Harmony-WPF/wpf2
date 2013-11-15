@@ -21,7 +21,7 @@ var totalRsvp = new Array();
 totalRsvp[0] = " Rhapsody"
 totalRsvp[1] = " Melody"
 totalRsvp[2] = " Symphony"
-totalRsvp[3] = " Sonata"
+totalRsvp[3] = " and Sonata"
 
 var rsvpdAlready = 4;
 var stillNeedToRsvp = totalRsvp - totalInvites;
