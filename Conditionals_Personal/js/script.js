@@ -11,10 +11,10 @@ var maxAllowed = 200;
 var stillNeedToInvite = maxAllowed - invited;
 var totalInvites= stillNeedToInvite + invited;
 
-if (totalInvites += 200) {
+if (totalInvites === 200); {
 console.log("I have " + howManyFriendsYouHave + " friends. I have already invited " + invited + " people to my party, so that means I have " + stillNeedToInvite + " people left to invite.");
 }
-else if (totalInvites -= 199) {
+else if (totalInvites += 199); {
 	console.log("I have " + howManyFriendsYouHave + " friends. I have already invited " + invited + " people to my party, so that means I have " + stillNeedToInvite + " people left to invite. Your " + totalInvites + " exceeds the amount maximum occupancy rull of " + maxAllowed + " .  You will need to invite less people.");
 }
 else {
