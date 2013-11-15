@@ -7,20 +7,21 @@ document.querySelector("body").style.backgroundColor= "#00FF11";
 
 var totalInvites = new Array();
 totalInvites[0] = "Viola";
-totalInvites[0] = "Symphony";
-totalInvites[0] = "Sonata";
-totalInvites[0] = "Melody";
-totalInvites[0] = "Aria";
-totalInvites[0] = "Seattle";
-totalInvites[0] = "Sophia";
-totalInvites[0] = "Daisy";
-totalInvites[0] = "Erica";
-totalInvites[0] = "Rhapsody";
+totalInvites[1] = "Symphony";
+totalInvites[2] = "Sonata";
+totalInvites[3] = "Melody";
+totalInvites[4] = "Aria";
+totalInvites[5] = "Seattle";
+totalInvites[6] = "Sophia";
+totalInvites[7] = "Daisy";
+totalInvites[8] = "Erica";
+totalInvites[9] = "Rhapsody";
 
 var totalRsvp = new Array();
-totalRsvp = "Rhapsody"
-totalRsvp = "Melody"
-totalRsvp = "Symphony"
-totalRsvp = "Sonata"
+totalRsvp[00] = "Rhapsody"
+totalRsv[11] = "Melody"
+totalRsvp[22] = "Symphony"
+totalRsvp[33] = "Sonata"
+
 
 
