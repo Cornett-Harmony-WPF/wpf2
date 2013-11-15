@@ -15,7 +15,7 @@ if (totalInvites += 200) {
 console.log("I have " + howManyFriendsYouHave + " friends. I have already invited " + invited + " people to my party, so that means I have " + stillNeedToInvite + " people left to invite.");
 }
 else if (totalInvites -=199) {
-	console.log("");
+	console.log("I have " + howManyFriendsYouHave + " friends. I have already invited " + invited + " people to my party, so that means I have " + stillNeedToInvite + " people left to invite.");
 }
 else {
 	console.log("insert";
