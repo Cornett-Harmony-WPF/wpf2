@@ -26,8 +26,4 @@ totalRsvp[3] = "Sonata"
 var rsvpdAlready = 4;
 var stillNeedToRsvp = totalRsvp - totalInvites;
 
-console.log("There are " + stillNeedToRsvp + "finding out what this is doing + stillNeedToRsvp");
-
-
-
-
+console.log("We have sent " + totalInvites + " an invitation " + " We have " + totalRsvp + " We still need to + stillNeedToRsvp");
