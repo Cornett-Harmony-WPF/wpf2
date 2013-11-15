@@ -9,5 +9,14 @@ var howManyFriendsYouHave = 200;
 var invited = 80;
 var maxAllowed = 200;
 var stillNeedToInvite = maxAllowed - invited;
+var totalInvites;
 
+if (totalInvites += 200) {
 console.log("I have " + howManyFriendsYouHave + " friends. I have already invited " + invited + " people to my party, so that means I have " + stillNeedToInvite + " people left to invite.");
+}
+else if (insert) {
+	console.log("");
+}
+else {
+	z = 20;
+}
