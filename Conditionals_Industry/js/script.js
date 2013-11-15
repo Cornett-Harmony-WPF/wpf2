@@ -1,7 +1,7 @@
 // JavaScript
 
 //this changes the css of your body tag to be green
-document.querySelector("body").style.backgroundColor= "#00FF11";
+document.querySelector("body").style.backgroundColor= "blue";
 
 //Who has RSVP'd and how many still need to, to attend the business office party?
 
@@ -24,7 +24,10 @@ totalRsvp[22] = "Symphony"
 totalRsvp[33] = "Sonata"
 
 var rsvpdAlready = 4;
-var 
+var stillNeedToRsvp = 9 - rsvpdAlready;
+
+console.log("There are " + stillNeedToRsvp + "finding out what this is doing + rsvpdAlready");
+
 
 
 
