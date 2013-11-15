@@ -18,15 +18,15 @@ totalInvites[8] = "Erica";
 totalInvites[9] = "Rhapsody";
 
 var totalRsvp = new Array();
-totalRsvp[00] = "Rhapsody"
-totalRsv[11] = "Melody"
-totalRsvp[22] = "Symphony"
-totalRsvp[33] = "Sonata"
+totalRsvp[0] = "Rhapsody"
+totalRsvp[1] = "Melody"
+totalRsvp[2] = "Symphony"
+totalRsvp[3] = "Sonata"
 
 var rsvpdAlready = 4;
-var stillNeedToRsvp = 9 - rsvpdAlready;
+var stillNeedToRsvp = totalRsvp - totalInvites;
 
-console.log("There are " + stillNeedToRsvp + "finding out what this is doing + rsvpdAlready");
+console.log("There are " + stillNeedToRsvp + "finding out what this is doing + stillNeedToRsvp");
 
 
 
