@@ -3,7 +3,7 @@
 //this changes the css of your body tag to be green
 document.querySelector("body").style.backgroundColor= "#00FF11";
 
-//Who has RSVP'd and how many still need to, to attend the birthday party?
+//Who has RSVP'd and how many still need to, to attend the business office party?
 
 var totalInvites = new Array();
 totalInvites[0] = "Viola";
@@ -22,6 +22,9 @@ totalRsvp[00] = "Rhapsody"
 totalRsv[11] = "Melody"
 totalRsvp[22] = "Symphony"
 totalRsvp[33] = "Sonata"
+
+var rsvpdAlready = 4;
+var 
 
 
 
