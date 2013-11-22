@@ -9,13 +9,13 @@ function yarnBalls() {
     var area = w * h;
     if (area >= 9){
         console.log();
-    } else {
+    } else if(condition) {
         addItem($this);
     }
 }
 
-function updateItem() {
-    $this = $(this);
+function yarnBalls() {
+    var OneBall = 9;
     var IsChecked = $this.hasClass("IsChecked");
     (IsChecked == true) ? removeItem($this) : addItem($this);
 }
