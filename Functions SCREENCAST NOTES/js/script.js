@@ -1,4 +1,4 @@
-// JavaScript- Basic Structure = function invocation
+// JavaScript- Basic Structure = function invocation = Arguments and Parameters
 
 //this changes the css of your body tag to be green
 document.querySelector("body").style.backgroundColor= "white";
@@ -25,3 +25,27 @@ function calcArea(){
 //console.log(width);
 //function call
 calcArea();
+
+//functions with parameters
+//function call with arguments inside ()
+funcName (argument1, argument2);
+
+//function with parameters
+function funcName (parameter1, parameter2) {
+	//code the function runs
+}
+
+calcArea(30, 20);
+
+function calcArea(w, h){//w=30, h=20
+	var area = w * h;
+	console.log(area);
+}
+
+function dogYears(age){ //parameters
+	var dogYears = age * 7;//arguments
+	console.log("Sparky is " + dogYears + " years old.")
+}
+//passing value (4,5) to age
+dogYears(4);
+dogYears(5);
