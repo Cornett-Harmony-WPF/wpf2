@@ -7,7 +7,7 @@ document.querySelector("body").style.backgroundColor= "yellow";
 function yarnBalls() {
     var oneBall = 9;
     var blanketSize;
-	var yarnBall = BlanketSize * 9; 
+	var yarnBall = BlanketSize * oneBall; 
     if (blanketSize >= 9){
         console.log("Your blanket is " + blanketSize + " You will need " + yarnBalls + " balls of yarn");
     } else if(blanketSize <= 9) {
