@@ -14,13 +14,5 @@ function yarnBalls() {
         console.log("Your blanket is " + blanketSize + " You will need " + yarnBalls + " balls of Yarn");
     }
 }
+yarnBalls();
 
-function yarnBalls() {
-    var OneBall = 9;
-    var IsChecked = $this.hasClass("IsChecked");
-    (IsChecked == true) ? removeItem($this) : addItem($this);
-}
-
-blanketSize();
-blanketSize();
-blanketSize();
