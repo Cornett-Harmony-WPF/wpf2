@@ -12,8 +12,8 @@ function yarnBalls() {
         console.log("Your blanket is " + blanketSize + " You will need " + yarnBalls + " balls of yarn");
     } else if(blanketSize <= oneBall) {
         console.log("Your blanket is " + blanketSize + " You will need " + yarnBalls + " balls of Yarn");
-    }
-}
-yarnBalls();
-
-
+		return blanketSize;
+		return oneBall;
+		return yarnBalls;
+	}
+	
