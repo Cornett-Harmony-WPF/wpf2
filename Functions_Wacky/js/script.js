@@ -9,6 +9,6 @@ function milesToGo (){
 	var milesDriven = 12;
 	var totalMiles = 25;
 	var milesLeft = milesDriven - totalMiles;
-	console.log("You drove " + milesDriven + "You have " + milesLeft + "miles left");
+	console.log("You drove " + milesDriven + " miles. You have " + milesLeft + "miles left");
 }
 milesToGo()
