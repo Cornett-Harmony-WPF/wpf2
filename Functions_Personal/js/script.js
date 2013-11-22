@@ -6,11 +6,11 @@ document.querySelector("body").style.backgroundColor= "yellow";
 
 function yarnBalls() {
     var oneBall = 9;
-    var area = w * h;
-    if (area >= 9){
-        console.log();
-    } else if(condition) {
-        addItem($this);
+    var blanketSize;
+    if (blanketSize >= 9){
+        console.log("Your blanket is " + blanketSize + " You will need " + yarnBalls + " balls of yarn");
+    } else if(blanketSize <= 9) {
+        console.log("Your blanket is " + blanketSize + " You will need " + yarnBalls + " balls of Yarn");
     }
 }
 
@@ -19,3 +19,7 @@ function yarnBalls() {
     var IsChecked = $this.hasClass("IsChecked");
     (IsChecked == true) ? removeItem($this) : addItem($this);
 }
+
+blanketSize();
+blanketSize();
+blanketSize();
