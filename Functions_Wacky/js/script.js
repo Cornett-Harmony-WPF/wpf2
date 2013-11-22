@@ -8,7 +8,7 @@ document.querySelector("body").style.backgroundColor= "yellow";
 function milesToGo (){
 	var milesDriven = 12;
 	var totalMiles = 25;
-	var milesLeft = milesDriven - totalMiles;
+	var milesLeft = totalMiles - milesDriven;
 	console.log("You drove " + milesDriven + " miles. You have " + milesLeft + " miles left");
 }
 milesToGo()
