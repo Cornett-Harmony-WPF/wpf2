@@ -7,12 +7,13 @@ document.querySelector("body").style.backgroundColor= "yellow";
 function yarnBalls() {
     var oneBall = 9;
     var blanketSize;
-	var yarnBall = BlanketSize * oneBall; 
-    if (blanketSize >= 9){
+	var yarnBalls = blanketSize * oneBall; 
+    if (blanketSize >= oneBall){
         console.log("Your blanket is " + blanketSize + " You will need " + yarnBalls + " balls of yarn");
-    } else if(blanketSize <= 9) {
+    } else if(blanketSize <= oneBall) {
         console.log("Your blanket is " + blanketSize + " You will need " + yarnBalls + " balls of Yarn");
     }
 }
 yarnBalls();
+
 
