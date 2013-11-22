@@ -8,7 +8,7 @@ document.querySelector("body").style.backgroundColor= "yellow";
 function webServices (){
 	var webPages = 2;
 	var eachPageCosts = 30;
-	var totalCost = webPages + eachPageCosts;
-	console.log("You want a website created with " + webPages + " web pages.  Each page costs " + eachPageCosts + dollars.  "So, the cost of your website will be, only " + totalCost + " dollars!");
+	var totalCost = webPages * eachPageCosts;
+	console.log("You want a website created with " + webPages + " web pages.  Each page costs " + eachPageCosts + " dollars, so the cost of your website will be, only " + totalCost + " dollars!");
 }
 webServices()
